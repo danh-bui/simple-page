@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+.header > h3 {
+  margin-top: 0.3rem;
+  font-style: italic;
+}
+.header > h1 {
+  font-size: 2.5rem;
+}
+
+.content {
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid blue;
+  width: 70%;
+  background: #ddd;
+  text-align: left;
+}
+
+.content h4 {
+  margin-bottom: .4rem;
+}
+
+.content a {
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+.content ol {
+  list-style: none;
+}
+
+.content > ol > li > ol {
+  padding-left: 1.4rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 70%;
+  min-width: 500px;
+  max-width: 1000px;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+a {
+  font-style: italic;
+  color: blue;
+}
+
+ul {
+  margin: 0 2rem;
+  line-height: 1.5rem
+}
+
+blockquote > p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  line-height: 2rem;
+  color: #757272;
+}
+cite {
+  color: #4F4D4D;
+  font-weight: bold;
+}
+#reference {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+#rocky__poster {
+  width: 40%;
+  display: inline;
+  float: right;
+  margin: 0 0.5rem;
+}
+img {
+  width: 40%;
+  max-width: 200px;
+}
+#heading__image {
+  width: 100%;
+  max-width: 100%;
+}
+.stallon__1988 {
+  float: left;
+  margin: 1.5rem 1rem 0.5rem 0;
+}
+#stallon__star {
+  display: inline;
+  float: right;
+  margin: 1.5rem 0 0.5rem 1rem;
+}
+#creed__poster {
+  display: inline;
+  float: right;
+  margin: 1rem 0 0.5rem 1rem;
+}
+#expendables__poster {
+/*   width: 40%; */
+  display: inline;
+  float: left;
+  margin: 0 1rem 0.5rem 0;
+}
+#footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.8rem;
+  background-color: #1D0766;
+  color: #fff;
+}
